@@ -1,10 +1,10 @@
-# 📧 Python SMTP E-posta Doğrulama Sistemi
+# Python SMTP E-posta Doğrulama Sistemi
 
 Python ile geliştirilmiş, SMTP protokolü üzerinden kullanıcılara güvenli tek kullanımlık şifre (OTP) göndererek kimlik doğrulama yapan bir prototip sistem.
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
 - Gmail SMTP üzerinden 6 haneli OTP kodu gönderimi
 - Kullanıcı e-posta adresi girişi ile anlık doğrulama
@@ -13,7 +13,7 @@ Python ile geliştirilmiş, SMTP protokolü üzerinden kullanıcılara güvenli 
 
 ---
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 python-smtp-email-verification-system/
@@ -53,7 +53,7 @@ EMAIL = "sizin_gmail_adresiniz@gmail.com"
 PASSWORD = "gmail_uygulama_sifreniz"
 ```
 
-> ⚠️ Normal Gmail şifrenizi **kullanmayın**. Aşağıdaki talimatları izleyerek bir Uygulama Şifresi oluşturun.
+> Normal Gmail şifrenizi **kullanmayın**. Aşağıdaki talimatları izleyerek bir Uygulama Şifresi oluşturun.
 
 **3. Uygulamayı çalıştırın:**
 
@@ -72,7 +72,7 @@ Kodu gir: 483921
 
 ---
 
-## 🔑 Gmail Uygulama Şifresi Oluşturma
+## Gmail Uygulama Şifresi Oluşturma
 
 Gmail'in standart şifresi bu projede çalışmaz. Bunun yerine bir **Uygulama Şifresi** (App Password) oluşturmanız gerekir:
 
@@ -84,7 +84,7 @@ Gmail'in standart şifresi bu projede çalışmaz. Bunun yerine bir **Uygulama �
 
 ---
 
-## 🔒 Güvenlik Notları
+## Güvenlik Notları
 
 - Kimlik bilgilerinizi (`EMAIL`, `PASSWORD`) doğrudan kaynak kodda bırakmayın.
 - Ortam değişkenleri veya `.env` dosyası kullanmanız önerilir:
@@ -100,7 +100,7 @@ PASSWORD = os.environ.get("SENDER_PASSWORD")
 
 ---
 
-## 🛠️ Geliştirme Fikirleri
+## Geliştirme Fikirleri
 
 - [ ] OTP için süre sınırı (TTL) ekleme
 - [ ] Birden fazla deneme hakkı ve kilitleme mekanizması
@@ -112,7 +112,7 @@ PASSWORD = os.environ.get("SENDER_PASSWORD")
 
 ---
 
-## 👤 Geliştirici
+## Geliştirici
 
 **Türker Albayrak**
 [GitHub](https://github.com/TurkerAlbayrak)
